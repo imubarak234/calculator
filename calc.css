@@ -1,0 +1,39 @@
+.case {
+    position: relative;
+}
+
+#contains {
+    border-style: solid;
+    border-color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 40px);
+    grid-template-rows: repeat(5, 40px);
+    width: 12em;
+    position: absolute;
+    top: 15em;
+    left: 40%;
+    margin: -25px 0 0 -25px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    grid-gap: 5px;
+    background-color:rgba(192, 212, 221, 0.959);
+}
+
+#next {
+    position: absolute;
+    top: 17em;
+    left: 40.3%;
+    z-index: 1;
+}
+
+#wife{
+    position: absolute;
+    top: 38em;
+    left: 41.25%;
+    padding: 0.7em 2.2em 0.7em 2.2em;
+    border-style: solid;
+    border-color: black;
+    font-weight: bold;
+}
+
